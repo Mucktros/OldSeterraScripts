@@ -1,4 +1,7 @@
-how to fucking use this shit:
-paste it in the console
+##  How to Use This Script for Seterra Add-ons  
 
-Note: these are only for the seterra on the wayback machine
+**Paste it in the console.**  
+
+### Things to Note:  
+- This script **only works for Seterra on the Wayback Machine.**  
+- **Fast click will break "Place the Labels" (PTL) and "Place the Flags" (PTF).**  
