@@ -21,7 +21,7 @@
 
                     setTimeout(() => {
                         isClicking = false;
-                    }, 50);
+                    }, 10);
                 }
             });
         });
