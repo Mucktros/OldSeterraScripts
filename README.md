@@ -1,5 +1,4 @@
-##  How to Use This Script for Seterra Add-ons  
-
+##  How to Use These Scripts
 **Paste it in the console.**  
 
 ### Things to Note:  
