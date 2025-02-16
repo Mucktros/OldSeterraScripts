@@ -27,6 +27,13 @@
         });
     }
 
+    function simulateFastClick() {
+        if (!window.location.search.includes("fastclick=1")) {
+            history.replaceState(null, "", window.location.pathname + "?fastclick=1");
+        }
+        applyFastClick();
+    }
+
     const observer = new MutationObserver(() => {
         applyFastClick();
     });
@@ -34,5 +41,5 @@
     const gameContainer = document.body;
     observer.observe(gameContainer, { childList: true, subtree: true });
 
-    applyFastClick();
+    simulateFastClick();
 })();
